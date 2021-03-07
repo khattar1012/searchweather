@@ -36,7 +36,7 @@ public class searchmodule {
 		driver.findElement(By.xpath("//div[@id='LocationSearch_listbox']/*[contains(text(),'Delhi')][1]")).click();
 		
 		String text = driver.findElement(By.xpath("//section[@data-testid='TodayWeatherModule']/*/h2")).getText();
-        System.out.println(text);
+        	System.out.println(text);
 		
 		
 		
